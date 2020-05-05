@@ -4,93 +4,139 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Meu projeto</title>
 </head>
 
 <body>
-    <nav>
-        <p>Digital Live</p>
-        <ul>
-            <li><a href="#servicos">SERVIÇOS</a></li>
-            <li><a href="#clientes">CLIENTES</a></li>
-            <li><a href="#parceiros">PARCEIROS</a></li>
-            <li><a href="#time">TIME</a></li>
-            <li><a href="#contato">CONTATO</a></li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">
+            <img src="img/empresa.jpg" width="140" height="100">
+        </a>
+
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#quemsomos">Quem somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#servicos">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#clientes">Cliente</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#parceiros">Parceiros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#time">Time</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contato">Contato</a>
+                </li>
+            </ul>
+        </div>
     </nav>
 
-    <header>
-        <h1>Sejam Bem Vindo!</h1>
-        <p>Oferecemos o desenvolvimento dos melhoressites e apps para sua empresa.</p>
-    </header>
+    <section id="quemsomos">
+        <div class="container-fluid quem-somos text-center margin">
+            <b>
+                <h2 class="margin">Quem Somos</h2>
+                <img src="img/equipe2.jpg" class="rounded-circle">
+                <h4>Oferecemos o desenvolvimento dos melhores sites e apps para sua empresa.</h4>
+            </b>
+        </div>
+    </section>
 
     <section id="servicos">
-        <h2>SERVIÇOS</h2>
-        <p>Oferecemos os melhores serviços em desenvolvimento de sites e aplicativos.</p>
-        <div>
-            <img src="img/site2.jpg" class="img_padrao">
-        </div>
-        <div>
-            <img src="img/app.jpg" class="img_padrao">
+        <div class="container-fluid text-center margin servicos">
+            <h2>SERVIÇOS</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p>Temos os melhores serviços em computação em nuvem.</p>
+                        <img src="img/app1.jpg" width="100%" height="91%">
+                    </div>
+                    <div class="col-lg-6">
+                        <p>Diversificação em desenvolvimento de sites e aplicativos.</p>
+                        <img src="img/app.jpg" width="100%">
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
     <section id="clientes">
-        <h2>CLIENTES</h2>
-        <p>Nossos clientes ficaram muito satisfeitos com nosso serviço</p>
-        <div>
-            <img src="img/cliente1.jpg" class="img_padrao">
-        </div>
-        <div>
-            <img src="img/cliente2.jpg" class="img_padrao">
-        </div>
-    </section>
-
-    <section id="parceiros">
-        <h2>PARCEIROS</h2>
-        <p>Nossos parceiros nos ajudam a entregar as melhores soluções aos clientes.</p>
-        <div>
-            <a href="https://www.academiapme.com.br/" target="_blank">
-                <img src="img/academia.png" width="130px">
-            </a>
-        </div>
-        <div>
-            <a href="https://digitalinnovation.one/" target="_blank">
-                <img src="img/digital_innovation.png" width="130px">
-            </a>
+        <hr>
+        <div class="row">
+            <div class="col-md-7">
+                <h2>CLIENTES</h2>
+                <p>Nossos clientes ficaram muito satisfeitos com nosso serviço</p>
+            </div>
+            <div class="col-md-5">
+                <img class="img-fluid mx-auto" src="img/cliente2.jpg" width="500" height="500">
+            </div>
         </div>
     </section>
 
     <section id="time">
-        <h2>TIME</h2>
-        <p>Nossos time trabalha com muita qualidade e empenho para entregar o melhor
-            produto para nossos clientes.
-        </p>
-        <div>
-            <img src="img/time.jpg" class="img_padrao">
-        </div>
-        <div>
-            <img src="img/time2.jpg" class="img_padrao">
+        <hr>
+        <div class="row">
+            <div class="col-md-7 order-md-2">
+                <h2>TIME</h2>
+                <p>Nossos time trabalha com muita qualidade e empenho para entregar o melhor
+                    produto para nossos clientes.
+                </p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img class="img-fluid mx-auto" src="img/time2.jpg" width="500" height="500">
+            </div>
         </div>
     </section>
 
-    <section id="contato">
-        <h2>CONTATO</h2>
-        <p>Entre em contato com nossa equipe.</p>
+
+    <section id="parceiros">
+        <hr>
+        <div class="container-fluid text-center margin parceiros">
+            <h2>PARCEIROS</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <a href="https://digitalinnovation.one/" target="_blank">
+                            <img src="img/digital_innovation.png" class="rounded-circle icones">
+                        </a>
+                    </div>
+                    <div class="col-lg-4">
+                        <a href="https://www.academiapme.com.br/" target="_blank">
+                            <img src="img/academia.png" class="rounded-circle icones">
+                        </a>
+                    </div>
+                    <div class="col-lg-4">
+                        <a href="https://www.algaworks.com/" target="_blank">
+                            <img src="img/algaworks.png" class="rounded-circle algaworks">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="container-fluid">
+        <hr>
+        <h4>CONTATO</h4>
+        <p id="sub">Entre em contato com nossa equipe.</p>
         <div>
             <img src="img/email.png" class="logo">
             <a href="mailto:contato@empresa.com">contato@empresa.com</a>
-        </div>
-        <div>
             <img src="img/fone.png" class="logo">
             <a href="tel:85999995555">(85)99999-5555</a>
         </div>
-
+        <p>Atendimento de segunda a sexta &middot; Das 08h às 18h</p>
     </section>
 
-    <footer>
-        <p>Desenvolvido por Renato Sousa</p>
+    <footer class=" container-fluid text-center bg-footer margin">
+        <p id="footer">&copy; 2020 &middot; Desenvolvido por Renato Sousa</p>
     </footer>
 </body>
 

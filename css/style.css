@@ -1,37 +1,78 @@
 body {
-    background: #C1ECF2;
     margin-left: 30px;
-    margin-right: 200px;
-}
-
-header {
-    margin-top: 70px;
-}
-
-h1 {
-    color: red;
-    font-family: fantasy;
+    margin-right: 30px;
+    font: 20px Arial, sans-serif;
 }
 
 h2 {
     font-family: fantasy;
 }
 
-p {
-    font-size: 18px;
-}
-
-footer {
-    margin-bottom: 30px;
-    margin-top: 30px;
-}
-
-.img_padrao {
+h4 {
+    font-family: fantasy;
     margin-bottom: 20px;
-    width: 300px;
-    height: 230px;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+hr {
+   
+}
+
+p {
+    font-size: 19px;
 }
 
 .logo {
     width: 30px;
+}
+
+.navbar {
+    background-color: rgb(71, 204, 197);
+}
+
+.quem-somos {
+    background-color:powderblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.rounded-circle {
+    width: 300px;
+    height: 300px;
+}
+
+.margin {
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.icones {
+    width: 170px;
+    height: 170px;
+}
+
+.algaworks {
+    width: 150px;
+    height: 150px;
+}
+
+#contato {
+    padding-bottom: 30px;
+}
+
+#sub {
+    font-size: 15px;
+}
+
+.bg-footer {
+    background-color: rgb(71, 204, 197);
+}
+
+#contato {
+    background-color: powderblue;
+}
+
+#footer {
+    font-size: 15px;
 }
